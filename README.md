@@ -31,3 +31,16 @@ STEPS:
  * This class contains 3 classes with same name, but it complie & run successfully
  *
  */
+ public class Main{
+   public static void main(String []args){
+      product p = new product();
+      p.product(x,y);
+      p.product(x,y,z);
+      p.product(x,y);      
+   }
+   class product{
+       public int product(int x, int y) {}
+       public int product(int x, int y, int z) {}
+        public double product(double x, double y) {}
+   }
+   }
